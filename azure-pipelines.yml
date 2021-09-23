@@ -20,7 +20,7 @@ steps:
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/amalshalika/arm-template-deployment/master/CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName armtemplatelearn'
+    overrideParameters: '-projectName az400'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
 - script: echo Hello, world!
